@@ -1,6 +1,6 @@
 #include<iostream>							// <cstdio> can be used in place of <malloc.h> and <process.h>
 #include<conio.h>
-#include<malloc.h>							// why malloc.h and process.h
+#include<malloc.h>							// malloc.h and process.h is for memory allocation in c and c_plus_plus
 #include<process.h>
 using namespace std;
 
