@@ -1,6 +1,6 @@
-#include<iostream>							// <cstdio> can be used in place of <malloc.h> and <process.h>
+#include<iostream>						// <cstdio> can be used in place of <malloc.h> and <process.h>
 #include<conio.h>
-#include<malloc.h>							// malloc.h and process.h is for memory allocation in c and c_plus_plus
+#include<malloc.h>						// malloc.h and process.h is for memory allocation in c and c_plus_plus
 #include<process.h>
 using namespace std;
 
@@ -14,13 +14,13 @@ class queue
 	{
 		node *frnt,*rear;
 		public:
-			queue()					// constructor
+			queue()				// constructor
 				{
 					frnt=NULL;
 					rear=NULL;
 				}
 			void insert();			// to insert can be named enqueue()
-			void del();				// to delete can be named dequeue()
+			void del();			// to delete can be named dequeue()
 			void show();			// to display list can be named front()
 	};
 
@@ -100,7 +100,7 @@ int main()
 								break;
 						case 3:q.show();
 								break;
-						case 4:exit(0);						// when do while is not used use exit(0)
+						case 4:exit(0);				// when do while is not used use exit(0)
 								break;
 						default:cout<<"Please enter correct choice(1-4)."<<endl<<endl;
 						getch();
