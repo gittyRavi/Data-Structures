@@ -73,10 +73,10 @@ int main()
     inorder(root);
   
     int key;
-	  key=20;
-	  if(search(root,key)!=NULL){
-	  printf("key found at address %p \n",search(root,key));}
-	  else{printf("key not found. \n");}
+    key=20;
+	
+    if(search(root,key)!=NULL){printf("key found at address %p \n",search(root,key));}
+    else{printf("key not found. \n");}
   
     return 0;
 }
