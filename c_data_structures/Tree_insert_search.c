@@ -27,7 +27,7 @@ void inorder(struct node *root)
     }
 }
   
-/* A utility function to insert a new node with given key
+/* A utility function to insert a new node with given key */
 struct node* insert(struct node* node, int key)
 {
     /* If the tree is empty, return a new node */
@@ -71,6 +71,12 @@ int main()
     insert(root, 80);
   
     inorder(root);
+  
+    int key;
+	  key=20;
+	  if(search(root,key)!=NULL){
+	  printf("key found at address %p \n",search(root,key));}
+	  else{printf("key not found. \n");}
   
     return 0;
 }
