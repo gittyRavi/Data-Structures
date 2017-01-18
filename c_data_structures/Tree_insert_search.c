@@ -76,7 +76,7 @@ int main()
     key=20;
 	
     if(search(root,key)!=NULL){printf("key %d found at address %p \n",key,search(root,key));}
-    else{printf("key not found. \n");}
+    else{printf("key %d not found. \n",key);}
   
     return 0;
 }
